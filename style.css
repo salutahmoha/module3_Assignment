@@ -1,0 +1,230 @@
+/* Add your custom styles here */
+
+/* Example styles */
+body {
+    padding-top: 50px;
+  }
+  
+  .top {
+    background-color: gray;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    float: left;
+    padding: 14px 16px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+  
+  .responsive {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  .title {
+    padding-left: 15px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .chicken {
+    background-color: gray;
+  }
+  
+  .chicken h3 {
+    text-align: center;
+  }
+  
+  .beef {
+    background-color: gray;
+  }
+  
+  .beef h3 {
+    text-align: center;
+  }
+  
+  .sushi {
+    background-color: gray;
+  }
+  
+  .sushi h3 {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar a:not(.icon) {
+      display: none;
+    }
+  
+    .navbar .icon {
+      float: right;
+      display: block;
+    }
+  
+    .navbar .icon::before {
+      content: "\2630";
+    }
+  
+    .responsive a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-top: 1px solid black;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  /* Add your custom styles here */
+
+/* Example styles */
+body {
+    padding-top: 50px;
+  }
+  
+  .top {
+    background-color: gray;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    float: left;
+    padding: 14px 16px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+  
+  .responsive {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  .title {
+    padding-left: 15px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .chicken {
+    background-color: gray;
+  }
+  
+  .chicken h3 {
+    text-align: center;
+  }
+  
+  .beef {
+    background-color: gray;
+  }
+  
+  .beef h3 {
+    text-align: center;
+  }
+  
+  .sushi {
+    background-color: gray;
+  }
+  
+  .sushi h3 {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar a:not(.icon) {
+      display: none;
+    }
+  
+    .navbar .icon {
+      float: right;
+      display: block;
+      cursor: pointer;
+      padding: 14px 16px;
+    }
+  
+    .navbar .icon::before {
+      content: "\2630";
+    }
+  
+    .responsive a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-top: 1px solid #ddd;
+    }
+  
+    .responsive.show {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
